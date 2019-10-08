@@ -28,4 +28,6 @@ CMD ["mkdir strapi-app"]
 
 CMD ["mkdir -p /usr/src/api/strapi-app"]
 
+CMD ["ls -l"]
+
 CMD ["./strapi.sh"]

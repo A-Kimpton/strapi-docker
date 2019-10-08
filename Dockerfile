@@ -26,4 +26,6 @@ HEALTHCHECK --interval=15s --timeout=5s --start-period=30s \
       
 CMD ["mkdir strapi-app"]
 
+CMD ["mkdir -p /usr/src/api/strapi-app"]
+
 CMD ["./strapi.sh"]
